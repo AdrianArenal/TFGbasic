@@ -1,0 +1,110 @@
+/*0001*/
+body {
+    background: rgba(212,228,239,1);
+    background: -moz-linear-gradient(-45deg, rgba(212,228,239,1) 0%, rgba(172,200,221,1) 45%, rgba(157,190,214,1) 62%, rgba(134,174,204,1) 88%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(212,228,239,1)), color-stop(45%, rgba(172,200,221,1)), color-stop(62%, rgba(157,190,214,1)), color-stop(88%, rgba(134,174,204,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(212,228,239,1) 0%, rgba(172,200,221,1) 45%, rgba(157,190,214,1) 62%, rgba(134,174,204,1) 88%);
+    background: -o-linear-gradient(-45deg, rgba(212,228,239,1) 0%, rgba(172,200,221,1) 45%, rgba(157,190,214,1) 62%, rgba(134,174,204,1) 88%);
+    background: -ms-linear-gradient(-45deg, rgba(212,228,239,1) 0%, rgba(172,200,221,1) 45%, rgba(157,190,214,1) 62%, rgba(134,174,204,1) 88%);
+    background: linear-gradient(135deg, rgba(212,228,239,1) 0%, rgba(172,200,221,1) 45%, rgba(157,190,214,1) 62%, rgba(134,174,204,1) 88%);
+    margin-bottom: 15%;
+    font-family: 'Ultra', sans-serif;  
+}
+/*0001*/
+h2,figcaption{
+    text-align: center;
+}
+/*0001*/
+footer {
+    padding-top: 1%;
+    padding-bottom: 0.1%;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    background-color: rgba(255,255,255,0.6);
+    font-size: 80%;
+    width:100%;
+
+}
+/*0001*/
+img{
+    width: 110%;
+}
+/*0001*/
+ul {
+    align-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-left: 4%;
+    margin-right: 5%;
+   
+
+}
+/*0001*/
+li {
+    width: 40%;
+    display: inline-block;
+    padding-left: 5%;
+}
+/*0100*/
+#que{
+    width: 40%;
+}
+/*0100*/
+#para{
+    width:47%
+}
+/*0010*/
+.contenido{
+    padding-left: 2%;
+    padding-right: 2%;
+    background: white;
+    border: 2px solid ;
+    border-radius: 25px;
+}
+/*0003*/
+footer ul li {
+    width: 30%
+}
+/*0002*/
+footer div{
+    display: inline-block;
+}
+/*0100*/
+#infotrab{
+    float:right;
+    padding-right: 1%;
+}
+/*0100*/
+#infopers{
+    padding-left: 1%;
+}
+/*0100*/
+#copyright{
+    text-align: center;
+}
+/*0100*/
+#volver:link,#volver:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid;
+    border-radius: 25px;
+}
+/*0100*/
+#etiquetas{
+    margin-left: 25%;
+}
+/*0001*/
+div{
+    text-align: center;
+}
+/*0100*/
+#volver:hover, #volver:active {
+    background-color: red;
+}

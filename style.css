@@ -1,0 +1,117 @@
+/*0001*/
+body {
+    background-image: url("images/frontpage.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 0;
+    font-family: 'Ultra', sans-serif;  
+}
+/*0001*/
+h2,h3 {
+ 
+        text-align: center;
+        font-size: 300%;
+        text-shadow: 2px 2px white;
+}
+/*0001*/
+h3{
+    font-size: 100%;
+    
+}
+/*0001*/
+ul {
+    align-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-top: 5%;
+    margin-left: 1%;
+    margin-right: 5%;
+   
+
+}
+/*0001*/
+li {
+    width: 19%;
+    display: inline-block;
+    padding-left: 5%;
+}
+/*0002*/
+li div {
+    display: block;  
+}
+/*0010*/
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    
+}
+/*0010*/
+.card:hover .container {
+    box-shadow: 0 28px 46px 0 rgba(0,0,0,0.5);
+     background-color: white;
+}
+/*0001*/
+img {
+    width: 100%;
+    border-radius: 1% 1% 0 0;
+}
+/*0001*/
+a {
+    color:black;
+}
+/*0011*/
+a:link   
+{   
+ text-decoration:none;
+
+} 
+/*0010*/
+.container {
+   background-color: rgba(255,255,255,0.5);
+    padding: 1% 1%;
+}
+/*0001*/
+h4{
+    text-align: center;
+    color: black;
+}
+/*0001*/
+footer {
+    padding-top: 1%;
+    padding-bottom: 0.1%;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    background-color: rgba(255,255,255,0.6);
+    font-size: 80%;
+    width:100%;
+
+}
+/*0003*/
+footer ul li {
+    width: 30%
+}
+/*0002*/
+footer div{
+    display: inline-block;
+}
+/*0100*/
+#infotrab{
+    float:right;
+    padding-right: 1%;
+}
+/*0100*/
+#infopers{
+    padding-left: 1%;
+}
+/*0100*/
+#etiquetas{
+    margin-left: 25%;
+}
+/*0100*/
+#copyright{
+    text-align: center;
+}

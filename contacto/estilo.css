@@ -1,0 +1,80 @@
+/*0001*/
+body {
+    background: rgba(243,226,199,1);
+    font-family: 'Ultra', sans-serif; 
+     text-align: center;
+    margin-bottom: 12%
+}
+/*0001*/
+body > * {
+    text-align: left;
+}
+/*0001*/
+h2 {
+    text-align: center;
+}
+/*0001*/
+form {
+    background: white;
+    display: inline-block;
+    border-radius: 6px;
+    border: 1px solid black;
+    padding:5%;
+    margin: 5%;
+}
+/*0100*/
+#volver:link,#volver:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid;
+    border-radius: 25px;
+}
+/*0001*/
+div{
+    text-align: center;
+}
+/*0100*/
+#volver:hover, #volver:active {
+    background-color: red;
+}
+/*0001*/
+footer {
+    padding-top: 1%;
+    padding-bottom: 0.1%;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    background-color: rgba(255,255,255,0.6);
+    font-size: 80%;
+    width:100%;
+
+}
+/*0003*/
+footer ul li {
+    width: 30%
+}
+/*0002*/
+footer div{
+    display: inline-block;
+}
+/*0100*/
+#infotrab{
+    float:right;
+    padding-right: 1%;
+}
+/*0100*/
+#infopers{
+    padding-left: 1%;
+}
+/*0100*/
+#copyright{
+    text-align: center;
+}
+/*0100*/
+#etiquetas{
+    margin-left: 25%;
+}
